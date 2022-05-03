@@ -19,7 +19,7 @@ class _LoginScreenState extends State<LoginScreen> {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          _isMobileLogin ? const MobileLoginScreen() : const EmailLoginScreen(),
+          _isMobileLogin ? const MobileLoginScreen() : const MobileLoginScreen(),
           ElevatedButton(
             onPressed: () {
               setState(() {
